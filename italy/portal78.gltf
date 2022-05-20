@@ -8,8 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
@@ -20,15 +19,6 @@
             "translation" : [
                 802.956787109375,
                 -5.68450927734375,
-                28.415782928466797
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "Plane87",
-            "translation" : [
-                819.956787109375,
-                76.31549072265625,
                 28.415782928466797
             ]
         }
@@ -51,27 +41,13 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.010",
+            "name" : "Plane78",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Plane.011",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
                     },
                     "indices" : 3,
                     "material" : 0
@@ -113,34 +89,6 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 4,
-            "max" : [
-                18.943872451782227,
-                2.8743276596069336,
-                31.785381317138672
-            ],
-            "min" : [
-                -18.943872451782227,
-                -2.8743276596069336,
-                -31.785381317138672
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -163,26 +111,11 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 140
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 188
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 236
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 268,
+            "byteLength" : 140,
             "uri" : "portal78.bin"
         }
     ]

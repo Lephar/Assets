@@ -8,8 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
@@ -17,18 +16,15 @@
         {
             "mesh" : 0,
             "name" : "PlaneA1",
+            "rotation" : [
+                0,
+                0,
+                1,
+                -4.371138828673793e-08
+            ],
             "translation" : [
                 1325.956787109375,
                 27.215492248535156,
-                28.415782928466797
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "Plane1A",
-            "translation" : [
-                431.956787109375,
-                -68.78450775146484,
                 28.415782928466797
             ]
         }
@@ -51,27 +47,13 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.018",
+            "name" : "PlaneA1",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Plane.019",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
                     },
                     "indices" : 3,
                     "material" : 0
@@ -86,12 +68,12 @@
             "count" : 4,
             "max" : [
                 13.361644744873047,
-                4.347987651824951,
+                4.347988605499268,
                 31.785381317138672
             ],
             "min" : [
                 -13.361644744873047,
-                -4.347987651824951,
+                -4.347988605499268,
                 -31.785381317138672
             ],
             "type" : "VEC3"
@@ -113,34 +95,6 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 4,
-            "max" : [
-                13.361644744873047,
-                4.34798526763916,
-                31.785381317138672
-            ],
-            "min" : [
-                -13.361644744873047,
-                -4.34798526763916,
-                -31.785381317138672
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -163,26 +117,11 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 140
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 188
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 236
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 268,
+            "byteLength" : 140,
             "uri" : "portalA1.bin"
         }
     ]

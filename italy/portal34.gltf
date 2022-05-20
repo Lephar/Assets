@@ -8,23 +8,13 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Plane43",
-            "translation" : [
-                1023.956787109375,
-                117.31549072265625,
-                26.415782928466797
-            ]
-        },
-        {
-            "mesh" : 1,
             "name" : "Plane34",
             "translation" : [
                 444.956787109375,
@@ -51,27 +41,13 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.002",
+            "name" : "Plane34",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Plane.001",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
                     },
                     "indices" : 3,
                     "material" : 0
@@ -85,13 +61,13 @@
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                17.134592056274414,
-                7.613787651062012,
+                17.134593963623047,
+                7.613785266876221,
                 31.690093994140625
             ],
             "min" : [
-                -17.134592056274414,
-                -7.613787651062012,
+                -17.134593963623047,
+                -7.613785266876221,
                 -31.690093994140625
             ],
             "type" : "VEC3"
@@ -113,34 +89,6 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 4,
-            "max" : [
-                17.134593963623047,
-                7.613785266876221,
-                31.690093994140625
-            ],
-            "min" : [
-                -17.134593963623047,
-                -7.613785266876221,
-                -31.690093994140625
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -163,26 +111,11 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 140
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 188
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 236
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 268,
+            "byteLength" : 140,
             "uri" : "portal34.bin"
         }
     ]
