@@ -15,39 +15,41 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Plane32",
+            "name" : "Plane23.001",
             "rotation" : [
                 0,
+                -0.5224987268447876,
                 0,
-                1,
-                -4.371138828673793e-08
+                0.8526400327682495
+            ],
+            "scale" : [
+                0.260000079870224,
+                0.20000004768371582,
+                0.260000079870224
             ],
             "translation" : [
-                371.956787109375,
-                96.31548309326172,
-                28.415782928466797
+                325.2936096191406,
+                4.687366485595703,
+                178.5680694580078
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "texture_21_NONE",
+            "name" : "Portal",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.6399999856948853,
-                    0.6399999856948853,
-                    0.6399999856948853,
-                    1
-                ],
+                "baseColorTexture" : {
+                    "index" : 0
+                },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.6732679605484009
+                "roughnessFactor" : 0.5
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Plane32",
+            "name" : "Plane12.007",
             "primitives" : [
                 {
                     "attributes" : {
@@ -61,20 +63,33 @@
             ]
         }
     ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Portal",
+            "uri" : "Portal.jpg"
+        }
+    ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                3.7517127990722656,
-                9.752197265625,
-                31.690093994140625
+                13.596431732177734,
+                31.690093994140625,
+                2.7989068031311035
             ],
             "min" : [
-                -3.7517127990722656,
-                -9.752197265625,
-                -31.690093994140625
+                -13.596431732177734,
+                -31.690093994140625,
+                -2.7989068031311035
             ],
             "type" : "VEC3"
         },
@@ -117,6 +132,12 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
         }
     ],
     "buffers" : [
