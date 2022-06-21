@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
         "version" : "2.0"
     },
     "scene" : 0,
@@ -8,34 +8,24 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Plane.004",
-            "translation" : [
-                12,
-                0,
-                1
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "Plane.005",
+            "name" : "Plane.007",
             "rotation" : [
                 0,
-                0,
                 -1,
+                0,
                 7.549790126404332e-08
             ],
             "translation" : [
-                12,
-                -16,
-                1
+                -7.976774215698242,
+                1.1735478639602661,
+                1.130324363708496
             ]
         }
     ],
@@ -54,27 +44,13 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.004",
+            "name" : "Plane.007",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Plane.005",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
                     },
                     "indices" : 3,
                     "material" : 0
@@ -101,14 +77,14 @@
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                1.2556658930407139e-06,
-                2,
-                1
+                0.3999999761581421,
+                1.1999999284744263,
+                -3.019915340018997e-08
             ],
             "min" : [
-                -1.2556658930407139e-06,
-                -2,
-                -1
+                -0.3999999761581421,
+                -1.1999999284744263,
+                -1.6053570561780361e-07
             ],
             "type" : "VEC3"
         },
@@ -129,34 +105,6 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 4,
-            "max" : [
-                6.039832101123466e-07,
-                2,
-                1
-            ],
-            "min" : [
-                -6.039832101123466e-07,
-                -2,
-                -1
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 4,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -179,21 +127,6 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 128
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 140
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 48,
-            "byteOffset" : 188
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 236
         }
     ],
     "samplers" : [
@@ -204,8 +137,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 268,
-            "uri" : "portal14.bin"
+            "byteLength" : 140,
+            "uri" : "p21.bin"
         }
     ]
 }
