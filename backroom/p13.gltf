@@ -15,15 +15,9 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "portal21",
-            "rotation" : [
-                0,
-                1,
-                0,
-                7.549790126404332e-08
-            ],
+            "name" : "portal13",
             "translation" : [
-                8.5,
+                6.5,
                 1,
                 0
             ]
@@ -44,7 +38,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.024",
+            "name" : "Plane.022",
             "primitives" : [
                 {
                     "attributes" : {
@@ -138,7 +132,7 @@
     "buffers" : [
         {
             "byteLength" : 140,
-            "uri" : "p21.bin"
+            "uri" : "p13.bin"
         }
     ]
 }

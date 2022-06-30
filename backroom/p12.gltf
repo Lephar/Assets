@@ -15,18 +15,18 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Plane.005",
+            "name" : "portal12",
             "translation" : [
-                -5.576774597167969,
-                1.1735478639602661,
-                0.3303244113922119
+                5.5,
+                1,
+                0
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Placeholder",
+            "name" : "portal",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -38,7 +38,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.005",
+            "name" : "Plane.021",
             "primitives" : [
                 {
                     "attributes" : {
@@ -61,8 +61,8 @@
     "images" : [
         {
             "mimeType" : "image/jpeg",
-            "name" : "placeholder",
-            "uri" : "placeholder.jpg"
+            "name" : "Portal",
+            "uri" : "Portal.jpg"
         }
     ],
     "accessors" : [
@@ -71,14 +71,14 @@
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                0.3999999761581421,
-                1.1999999284744263,
-                3.019915695290365e-08
+                0.5,
+                1,
+                9.934765898833575e-08
             ],
             "min" : [
-                -0.3999999761581421,
-                -1.1999999284744263,
-                -3.019915695290365e-08
+                -0.5,
+                -1,
+                -9.934765898833575e-08
             ],
             "type" : "VEC3"
         },

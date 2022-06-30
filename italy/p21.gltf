@@ -15,7 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "portal21",
+            "name" : "Portal21.001",
             "rotation" : [
                 0,
                 1,
@@ -23,16 +23,16 @@
                 7.549790126404332e-08
             ],
             "translation" : [
-                8.5,
-                1,
-                0
+                12.986199378967285,
+                4.280762672424316,
+                91.17025756835938
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "portal",
+            "name" : "Portal",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -44,7 +44,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Plane.024",
+            "name" : "Plane.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -77,14 +77,14 @@
             "componentType" : 5126,
             "count" : 4,
             "max" : [
-                0.5,
-                1,
-                9.934765898833575e-08
+                0.3199999928474426,
+                4,
+                2.4159325207051552e-08
             ],
             "min" : [
-                -0.5,
-                -1,
-                -9.934765898833575e-08
+                -0.3199999928474426,
+                -4,
+                -2.4159325207051552e-08
             ],
             "type" : "VEC3"
         },
