@@ -1,0 +1,347 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2022 v20220308.1"
+  },
+  "extensionsUsed": [
+    "KHR_texture_basisu",
+    "MSFT_texture_dds"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -8.146034E-08,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "name": "IvySim_Leaves"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        -8.146034E-08,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "name": "IvySim_Lianas"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "COLOR_0": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "IvySim_Leaves"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "TANGENT": 8,
+            "NORMAL": 9,
+            "COLOR_0": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 6,
+          "material": 1
+        }
+      ],
+      "name": "IvySim_Lianas"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 14716908,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3098245,
+      "max": [
+        -0.024726,
+        0.1802475,
+        0.0471391939
+      ],
+      "min": [
+        -0.11664547,
+        0.0364134423,
+        -0.0285867136
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3098245,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 37178940,
+      "componentType": 5126,
+      "count": 3098245,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49571920,
+      "componentType": 5126,
+      "count": 3098245,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3098245,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 58867632,
+      "componentType": 5125,
+      "count": 479766,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 74357880,
+      "componentType": 5126,
+      "count": 170384,
+      "max": [
+        -0.0255731959,
+        0.179394186,
+        0.0469283275
+      ],
+      "min": [
+        -0.117712311,
+        0.0374734327,
+        -0.02764312
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 99143840,
+      "componentType": 5126,
+      "count": 170384,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 76402488,
+      "componentType": 5126,
+      "count": 170384,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101869984,
+      "componentType": 5126,
+      "count": 170384,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24785960,
+      "componentType": 5126,
+      "count": 170384,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 60786696,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 60786696,
+      "byteLength": 78447096,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 139233792,
+      "byteLength": 104596128,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 243829920,
+      "byteLength": 26149032,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "sponza_ivy.bin",
+      "byteLength": 269978952
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "doubleSided": true,
+      "name": "IvyLeaf",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0985039845,
+          0.0263943356,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5356144
+      },
+      "doubleSided": true,
+      "name": "Lianas",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "ivy_leaf_Normal",
+      "sampler": 0,
+      "source": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        },
+        "MSFT_texture_dds": {
+          "source": 6
+        }
+      }
+    },
+    {
+      "name": "ivy_leaf_BaseColor",
+      "sampler": 0,
+      "source": 1,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        },
+        "MSFT_texture_dds": {
+          "source": 7
+        }
+      }
+    },
+    {
+      "name": "ivy_leaf_MetallicRoughness",
+      "sampler": 0,
+      "source": 2,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        },
+        "MSFT_texture_dds": {
+          "source": 8
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/png/ivy_leaf_Normal.png"
+    },
+    {
+      "uri": "textures/png/ivy_leaf_BaseColor.png"
+    },
+    {
+      "uri": "textures/png/ivy_leaf_MetallicRoughness.png"
+    },
+    {
+      "uri": "textures/ktx2/ivy_leaf_Normal.ktx2"
+    },
+    {
+      "uri": "textures/ktx2/ivy_leaf_BaseColor.ktx2"
+    },
+    {
+      "uri": "textures/ktx2/ivy_leaf_MetallicRoughness.ktx2"
+    },
+    {
+      "uri": "textures/dds/ivy_leaf_Normal.dds"
+    },
+    {
+      "uri": "textures/dds/ivy_leaf_BaseColor.dds"
+    },
+    {
+      "uri": "textures/dds/ivy_leaf_MetallicRoughness.dds"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}
