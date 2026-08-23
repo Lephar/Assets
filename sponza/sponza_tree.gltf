@@ -1,0 +1,617 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2022 v20220628.14"
+  },
+  "extensionsUsed": [
+    "KHR_texture_basisu",
+    "MSFT_texture_dds"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "name": "Italian_Cypress_Dense_Custom_05b"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "name": "Cypress_BK"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "name": "Cypress_LF"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "name": "Cypress_LF_GroundCover"
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.65,
+        1.65,
+        1.65
+      ],
+      "name": "Cypress_SM"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "COLOR_0": 4,
+            "TEXCOORD_0": 5,
+            "TEXCOORD_1": 6
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "Cypress_BK"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "TANGENT": 9,
+            "NORMAL": 10,
+            "COLOR_0": 11,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ],
+      "name": "Cypress_LF"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "TANGENT": 16,
+            "NORMAL": 17,
+            "COLOR_0": 18,
+            "TEXCOORD_0": 19,
+            "TEXCOORD_1": 20
+          },
+          "indices": 14,
+          "material": 1
+        }
+      ],
+      "name": "Cypress_LF_GroundCover"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 22,
+            "TANGENT": 23,
+            "NORMAL": 24,
+            "COLOR_0": 25,
+            "TEXCOORD_0": 26,
+            "TEXCOORD_1": 27
+          },
+          "indices": 21,
+          "material": 2
+        }
+      ],
+      "name": "Cypress_SM"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1396251,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 332489,
+      "max": [
+        0.882377863,
+        8.918803,
+        0.806167364
+      ],
+      "min": [
+        -0.924395561,
+        -0.00395443663,
+        -0.8885115
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 332489,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3989868,
+      "componentType": 5126,
+      "count": 332489,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5319824,
+      "componentType": 5126,
+      "count": 332489,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 332489,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2659912,
+      "componentType": 5126,
+      "count": 332489,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5585004,
+      "componentType": 5125,
+      "count": 2504220,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7979736,
+      "componentType": 5126,
+      "count": 751266,
+      "max": [
+        0.952580035,
+        8.98556,
+        0.8542531
+      ],
+      "min": [
+        -0.9669597,
+        0.09826112,
+        -0.9565638
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 10639648,
+      "componentType": 5126,
+      "count": 751266,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16994928,
+      "componentType": 5126,
+      "count": 751266,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 22659904,
+      "componentType": 5126,
+      "count": 751266,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5319824,
+      "componentType": 5126,
+      "count": 751266,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 11329952,
+      "componentType": 5126,
+      "count": 751266,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15601884,
+      "componentType": 5125,
+      "count": 1559490,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 26010120,
+      "componentType": 5126,
+      "count": 467847,
+      "max": [
+        1.895461,
+        0.07751425,
+        1.91855371
+      ],
+      "min": [
+        -1.84677148,
+        -2.906799E-07,
+        -1.81749618
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 34680160,
+      "componentType": 5126,
+      "count": 467847,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 31624284,
+      "componentType": 5126,
+      "count": 467847,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42165712,
+      "componentType": 5126,
+      "count": 467847,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 17340080,
+      "componentType": 5126,
+      "count": 467847,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 21082856,
+      "componentType": 5126,
+      "count": 467847,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 21839844,
+      "componentType": 5125,
+      "count": 611280,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 37238448,
+      "componentType": 5126,
+      "count": 163008,
+      "max": [
+        0.930902,
+        8.894943,
+        0.8254986
+      ],
+      "min": [
+        -0.9376112,
+        0.09633999,
+        -0.913819969
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 49651264,
+      "componentType": 5126,
+      "count": 163008,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 39194544,
+      "componentType": 5126,
+      "count": 163008,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 52259392,
+      "componentType": 5126,
+      "count": 163008,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 24825632,
+      "componentType": 5126,
+      "count": 163008,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 26129696,
+      "componentType": 5126,
+      "count": 163008,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24284964,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24284964,
+      "byteLength": 41150640,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65435604,
+      "byteLength": 54867520,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 120303124,
+      "byteLength": 27433760,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "sponza_tree.bin",
+      "byteLength": 147736884
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "doubleSided": true,
+      "name": "Bark",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "LeafSpring",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.068,
+          0.112,
+          0.02,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "SmallBranches",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "cypress_bark_Normal",
+      "sampler": 0,
+      "source": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        },
+        "MSFT_texture_dds": {
+          "source": 8
+        }
+      }
+    },
+    {
+      "name": "cypress_bark_BaseColor",
+      "sampler": 0,
+      "source": 1,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        },
+        "MSFT_texture_dds": {
+          "source": 9
+        }
+      }
+    },
+    {
+      "name": "cypress_leaf_Normal",
+      "sampler": 0,
+      "source": 2,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 6
+        },
+        "MSFT_texture_dds": {
+          "source": 10
+        }
+      }
+    },
+    {
+      "name": "cypress_leaf_BaseColor",
+      "sampler": 0,
+      "source": 3,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 7
+        },
+        "MSFT_texture_dds": {
+          "source": 11
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/png/cypress_bark_Normal.png"
+    },
+    {
+      "uri": "textures/png/cypress_bark_BaseColor.png"
+    },
+    {
+      "uri": "textures/png/cypress_leaf_Normal.png"
+    },
+    {
+      "uri": "textures/png/cypress_leaf_BaseColor.png"
+    },
+    {
+      "uri": "textures/ktx2/cypress_bark_Normal.ktx2"
+    },
+    {
+      "uri": "textures/ktx2/cypress_bark_BaseColor.ktx2"
+    },
+    {
+      "uri": "textures/ktx2/cypress_leaf_Normal.ktx2"
+    },
+    {
+      "uri": "textures/ktx2/cypress_leaf_BaseColor.ktx2"
+    },
+    {
+      "uri": "textures/dds/cypress_bark_Normal.dds"
+    },
+    {
+      "uri": "textures/dds/cypress_bark_BaseColor.dds"
+    },
+    {
+      "uri": "textures/dds/cypress_leaf_Normal.dds"
+    },
+    {
+      "uri": "textures/dds/cypress_leaf_BaseColor.dds"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}
