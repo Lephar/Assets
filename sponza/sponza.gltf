@@ -51,8 +51,7 @@
         150,
         151,
         152,
-        153,
-        154
+        153
       ]
     }
   ],
@@ -1455,25 +1454,6 @@
     },
     {
       "translation": [
-        -0.413050234,
-        2.089697,
-        -13.7860823
-      ],
-      "rotation": [
-        -5.96046448E-08,
-        1.33226763E-15,
-        -1.49011612E-08,
-        0.99999994
-      ],
-      "name": "HDRI_SKY",
-      "extensions": {
-        "KHR_lights_punctual": {
-          "light": 0
-        }
-      }
-    },
-    {
-      "translation": [
         -21.7048588,
         43.41434,
         -6.14988375
@@ -1492,14 +1472,14 @@
       "name": "SUN",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 1
+          "light": 0
         }
       }
     },
     {
       "translation": [
         15.6191521,
-        3.27584434,
+        3.194,
         -0.9174349
       ],
       "rotation": [
@@ -1516,7 +1496,7 @@
       "name": "lamp_light_1st_floor_12",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 2
+          "light": 1
         }
       }
     },
@@ -1540,7 +1520,7 @@
       "name": "lamp_light_1st_floor_11",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 3
+          "light": 2
         }
       }
     },
@@ -1564,7 +1544,7 @@
       "name": "lamp_light_1st_floor_10",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 4
+          "light": 3
         }
       }
     },
@@ -1588,7 +1568,7 @@
       "name": "lamp_light_1st_floor_09",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 5
+          "light": 4
         }
       }
     },
@@ -1612,7 +1592,7 @@
       "name": "lamp_light_1st_floor_08",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 6
+          "light": 5
         }
       }
     },
@@ -1636,7 +1616,7 @@
       "name": "lamp_light_1st_floor_07",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 7
+          "light": 6
         }
       }
     },
@@ -1660,7 +1640,7 @@
       "name": "lamp_light_1st_floor_06",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 8
+          "light": 7
         }
       }
     },
@@ -1684,7 +1664,7 @@
       "name": "lamp_light_1st_floor_05",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 9
+          "light": 8
         }
       }
     },
@@ -1708,7 +1688,7 @@
       "name": "lamp_light_1st_floor_04",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 10
+          "light": 9
         }
       }
     },
@@ -1732,7 +1712,7 @@
       "name": "lamp_light_1st_floor_03",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 11
+          "light": 10
         }
       }
     },
@@ -1756,7 +1736,7 @@
       "name": "lamp_light_1st_floor_02",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 12
+          "light": 11
         }
       }
     },
@@ -1780,7 +1760,7 @@
       "name": "lamp_light_1st_floor_01",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 13
+          "light": 12
         }
       }
     },
@@ -1804,7 +1784,7 @@
       "name": "lamp_light_1st_floor_13",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 14
+          "light": 13
         }
       }
     },
@@ -1828,7 +1808,7 @@
       "name": "lamp_light_2nd_floor_08",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 15
+          "light": 14
         }
       }
     },
@@ -1852,7 +1832,7 @@
       "name": "lamp_light_2nd_floor_01",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 16
+          "light": 15
         }
       }
     },
@@ -1876,7 +1856,7 @@
       "name": "lamp_light_2nd_floor_02",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 17
+          "light": 16
         }
       }
     },
@@ -1900,7 +1880,7 @@
       "name": "lamp_light_2nd_floor_03",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 18
+          "light": 17
         }
       }
     },
@@ -1924,7 +1904,7 @@
       "name": "lamp_light_2nd_floor_04",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 19
+          "light": 18
         }
       }
     },
@@ -1948,7 +1928,7 @@
       "name": "lamp_light_2nd_floor_05",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 20
+          "light": 19
         }
       }
     },
@@ -1972,7 +1952,7 @@
       "name": "lamp_light_2nd_floor_06",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 21
+          "light": 20
         }
       }
     },
@@ -1996,7 +1976,7 @@
       "name": "lamp_light_2nd_floor_07",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 22
+          "light": 21
         }
       }
     },
@@ -2020,7 +2000,7 @@
       "name": "lamp_light_1st_floor_14",
       "extensions": {
         "KHR_lights_punctual": {
-          "light": 23
+          "light": 22
         }
       }
     },
@@ -32986,16 +32966,7 @@
             0.9999998,
             1.0
           ],
-          "intensity": 0.0,
-          "type": "point"
-        },
-        {
-          "color": [
-            0.9999999,
-            0.9999998,
-            1.0
-          ],
-          "intensity": 0.0,
+          "intensity": 100000.0,
           "type": "directional"
         },
         {
@@ -33004,7 +32975,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33013,7 +32984,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33022,7 +32993,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33031,7 +33002,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33040,7 +33011,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33049,7 +33020,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33058,7 +33029,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33067,7 +33038,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33076,7 +33047,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33085,7 +33056,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33094,7 +33065,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33103,7 +33074,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33112,7 +33083,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33121,7 +33092,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33130,7 +33101,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33139,7 +33110,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33148,7 +33119,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33157,7 +33128,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33166,7 +33137,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33175,7 +33146,7 @@
             0.5400035,
             0.191487372
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33184,7 +33155,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         },
         {
@@ -33193,7 +33164,7 @@
             0.456014365,
             0.114013553
           ],
-          "intensity": 0.0,
+          "intensity": 64.0,
           "type": "point"
         }
       ]
